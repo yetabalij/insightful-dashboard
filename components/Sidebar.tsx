@@ -16,13 +16,12 @@ import {
   Folders,
   CreditCard,
   Settings,
-  User,
 } from "lucide-react";
 import Link from "next/link";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="h-[100vh]">
       <Command className="bg-secondary rounded-none">
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
