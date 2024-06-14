@@ -27,7 +27,7 @@ const DashboardRight = () => {
           icon={<MessageCircle className="text-slate-500" size={62} />}
         />
       </div>
-      <PostTable title="Latest Posts" />
+      <PostTable title="Latest Posts" limit={5} />
     </div>
   );
 };
