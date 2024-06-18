@@ -1,7 +1,11 @@
-import React from "react";
+import PostsDashboard from "@/components/dashboard/PostsDashboard";
 
 const Posts = () => {
-  return <div>post</div>;
+  return (
+    <div>
+      <PostsDashboard />
+    </div>
+  );
 };
 
 export default Posts;
