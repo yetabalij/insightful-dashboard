@@ -54,7 +54,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
       <div className="col-span-2 bg-slate-100">
         <Sidebar />
       </div>
-      <div className="col-span-10 my-5">
+      <div className="col-span-10 my-5 mr-4">
         <BackButton text="Back To Posts" link="/posts" />
         <h3 className="text-2xl mb-4">Edit Post</h3>
         <Form {...form}>
