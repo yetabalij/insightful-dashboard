@@ -59,7 +59,7 @@ const posts: Post[] = [
     ],
   },
   {
-    id: "1",
+    id: "4",
     title: "Understanding TypeScript",
     body: "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
     author: "John Doe",
@@ -78,7 +78,7 @@ const posts: Post[] = [
     ],
   },
   {
-    id: "2",
+    id: "5",
     title: "Advanced TypeScript Types",
     body: "In this post, we explore advanced types in TypeScript such as union types, intersection types, and type guards.",
     author: "Jane Smith",
@@ -97,7 +97,7 @@ const posts: Post[] = [
     ],
   },
   {
-    id: "3",
+    id: "6",
     title: "Getting Started with React and TypeScript",
     body: "This post covers the basics of integrating TypeScript with React for building robust web applications.",
     author: "Emily Johnson",
@@ -116,7 +116,7 @@ const posts: Post[] = [
     ],
   },
   {
-    id: "1",
+    id: "7",
     title: "Understanding TypeScript",
     body: "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
     author: "John Doe",
@@ -135,7 +135,7 @@ const posts: Post[] = [
     ],
   },
   {
-    id: "2",
+    id: "8",
     title: "Advanced TypeScript Types",
     body: "In this post, we explore advanced types in TypeScript such as union types, intersection types, and type guards.",
     author: "Jane Smith",
@@ -154,7 +154,7 @@ const posts: Post[] = [
     ],
   },
   {
-    id: "3",
+    id: "9",
     title: "Getting Started with React and TypeScript",
     body: "This post covers the basics of integrating TypeScript with React for building robust web applications.",
     author: "Emily Johnson",
