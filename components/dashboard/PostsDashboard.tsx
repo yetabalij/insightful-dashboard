@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../Sidebar";
-import DashboardRight from "./DashboardRight";
 import PostsDashboardRight from "./PostsDashboardRight";
+import BackButton from "../BackButton";
 
 const Dashboard = () => {
   return (
@@ -10,6 +10,7 @@ const Dashboard = () => {
         <Sidebar />
       </div>
       <div className="col-span-10 mt-10">
+        <BackButton text="Go Back" link="/" />
         <PostsDashboardRight />
       </div>
     </div>
