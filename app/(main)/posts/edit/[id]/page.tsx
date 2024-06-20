@@ -2,6 +2,7 @@
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import { useToast } from "@/components/ui/use-toast";
 
 import {
   Form,
@@ -34,6 +35,7 @@ interface PostEditPageProps {
 
 const PostEditPage = ({ params }: PostEditPageProps) => {
   const post = posts.find((post) => post.id === params.id);
+  const { toast } = useToast();
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -46,7 +48,10 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    toast({
+      title: "Post has been updated successfully",
+      description: `Updated by ${post?.author} on ${post?.date}`,
+    });
   }
 
   return (
